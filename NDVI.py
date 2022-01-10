@@ -86,7 +86,7 @@ def absolute_paths():
             bands_8[i]=directories_list[i]+"\\"+bands_8[i]
             bands_4[i]=directories_list[i]+"\\"+bands_4[i]
 
-    return bands_4, bands_4
+    return bands_8, bands_4
 
 def calc_ndvi(raster):
     
